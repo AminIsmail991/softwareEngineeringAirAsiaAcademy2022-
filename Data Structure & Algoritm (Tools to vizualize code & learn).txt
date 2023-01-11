@@ -1,0 +1,24 @@
+Solve algorithm
+
+
+Tools to visualize code 
+:
+1.https://www.jsv9000.app/
+2. https://jsviz2.klve.nl/#?code=DYUwLgBAdhC8EEYAMAoUkDOBXAtnCq6EAxgPZZRggBOE+qA7gBYCWoAFGRVbQDzzIkSAJQBvFHWx54UiAGpoEkuUo18XVdTkIlMeDAC0OgL4oUZKBlKgAdMFIBzdgCIAyrgBczgDQQpwoA
+3. https://pythontutor.com/render.html#mode=display
+
+
+let n = 10
+let sum = 0
+let counter  = 0
+while(counter <= 10){
+  sum = sum + n
+  counter = counter+1
+  n = n -1
+}
+
+console.log("Sum:", sum)
+
+_____________________________________________
+
+

@@ -1,0 +1,1 @@
+When upload to github dont upload with node_module 

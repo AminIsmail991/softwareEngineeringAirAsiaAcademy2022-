@@ -1,0 +1,65 @@
+<!-- id : select single element and unique
+         class: select group element
+        
+        how to name them? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID and Class</title>
+
+    <style>
+        .card {
+            border: 1px solid green;
+            background-color: aqua;
+        }
+
+        #main-nav {
+            border: 3px red solid;
+            background-color: rebeccapurple;
+        }
+
+        #about p {
+            color: blue;
+        }
+
+        #main-header span {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- div#main-header.card -->
+    <div id="main-header" class="card">
+        <h1>Mt First Web App</h1>
+        <p>Lorem ipsum dolor sit <span>hgfsghfsdhfs</span> amet consectetur,
+            adipisicing elit. Error, consequatur?</p>
+    </div>
+
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div id="about" class="card">
+        <h3>Contact</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus,
+            quidem.</p>
+        <ul>
+            <li>Address: AirAsia Academy, KL Sentral</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <p>Copyright &copy; 2022</p>
+    </div>
+    <!-- # for id
+    example: div#main
+    . for class 
+    example: div.main
+    -->
+</body>
+</html>

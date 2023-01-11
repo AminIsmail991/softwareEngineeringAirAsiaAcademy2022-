@@ -1,0 +1,19 @@
+MongoDB 
+
+mongod - for server
+mongo - for client
+
+start server
+go to bin, the cmd, the type mongod
+    
+     At first time, there are no data, so create folder for data (already done), : 
+     C:\MongoDB_Community_Server\mongodb-win32-x86_64-windows-5.0.12\bin>mongod --dbpath "C:\MongoDB_Community_Server\mongodata"
+     
+
+
+start client (open on another cmd)
+go to bin, the cmd, the type mongo
+
+_______________
+to run mongod
+C:\MongoDB_Community_Server\mongodb-win32-x86_64-windows-5.0.12\bin>mongod --dbpath "C:\MongoDB_Community_Server\mongodata"

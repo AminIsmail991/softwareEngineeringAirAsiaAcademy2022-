@@ -1,0 +1,7 @@
+start react
+
+//Go to reactfile
+PS C:\MOHE_MOSTI_SEP_2022> cd firstreact
+
+then start react
+npm start

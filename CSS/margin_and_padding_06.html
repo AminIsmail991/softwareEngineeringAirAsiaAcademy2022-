@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- shortcut for comment in CSS : hold ctrl + k + c -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+
+    <style>
+        * { /* * : select all element */
+            margin: 0;
+            padding: 0;
+        }
+        .section {
+            background-color: seashell;
+            border: black 3px solid;
+
+            /* padding all side */
+            padding: 30px;
+            
+            /* padding different sides */
+            padding-top: 5px;
+            padding-bottom: 10px;
+            padding-right: 3px;
+            padding-left: 4px;
+
+            /* padding :  top right bottom  left*/ 
+            padding: 10px 15px 20px 2px; 
+
+            /* padding : top/bottom left/right */
+            padding: 10px 20px;
+
+            /* margin all sides */
+            margin: 20px;
+
+            /* margin different size */
+            margin-top: 7px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            margin-right: 5px;
+
+            /* margin : top right bottom left */
+            margin: 10px 5px 20px 13px;
+
+            /* margin : top/bottom left/right */
+            margin: 30px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h2>Software Engineering</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, voluptate.</p>
+    </div>
+
+    <div class="section">
+        <h2>Cybersecurity</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aspernatur.</p>
+    </div>
+</body>
+</html>

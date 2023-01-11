@@ -1,0 +1,3 @@
+Understand about components, parent-child components,props,
+states,hooks, SPA(Single Page Application).
+

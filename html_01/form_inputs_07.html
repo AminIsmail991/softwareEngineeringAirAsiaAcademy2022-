@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php">
+        <!-- this is for text -->
+        <!-- ghost element -->
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter Your Email">
+        </div>
+        <br>
+        <!-- text area -->
+        <div>
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <!-- Number -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number">
+        </div>
+        <br>
+        <!-- Select (Dropdown)  -->
+        <label for="gender">Gender</label>
+        <select name="male" id="">
+            <!-- shortcut multiple copy : windows : Shift + Alt + Down Arrow -->
+            <!-- use selected to make it default -->
+            <option value="" selected></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <br>
+        <!-- Date(Calender) -->
+        <div>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+        <!-- Radio Button -->
+        <div>
+            <label for="color">Color</label>
+            <br>
+            <input type="radio" id="color" name="color" value="silver">Silver
+            <input type="radio" id="color" name="color" value="gold">Gold
+            <input type="radio" id="color" name="color" value="green">green
+            <input type="radio" id="color" name="color" value="red">Red
+        </div>
+        <br>
+        <!-- check box -->
+        <div>
+            <!-- note: do not use Capital Letter -->
+            <label for="meals">Meals</label>
+            <input type="checkbox" name="meal" value="soft drink">Soft Drink
+            <input type="checkbox" name="meal" value="salad">Salad
+            <input type="checkbox" name="meal" value="chicken"> Chicken
+            <input type="checkbox" name="meal" value="duck"> Duck
+        </div>
+        <br>
+        <!-- Submit -->
+        <!-- First style -->
+        <input type="submit" value="submit">Submit
+        <!-- Second style -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
